@@ -2,5 +2,31 @@ nav {
   font-family: "Delicious Handrawn", cursive;
 }
 h1 {
-  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "font-family: 'Libre Baskerville', serif";
+  text-align: center;
+  font-size: 3 rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+* {
+  background-color: red;
 }
