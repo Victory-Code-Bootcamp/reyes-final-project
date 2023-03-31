@@ -1,21 +1,26 @@
 nav {
-  font-family: "Delicious Handrawn", cursive;
+  font-family: "Abril Fatface", serif;
 }
 h1 {
   font-family: "font-family: 'Libre Baskerville', serif";
+  color: white;
   text-align: center;
   font-size: 3 rem;
 }
+h2 {
+  font-family: "Dancing Script", serif;
+}
 
+* {
+  background-color: black;
+  color: white;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 1.2rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  background-color: black;
 }
 
 li {
@@ -24,9 +29,13 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
-  background-color: #dddddd;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-* {
-  background-color: red;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
 }
