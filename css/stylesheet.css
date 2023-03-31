@@ -6,11 +6,18 @@ h1 {
   color: white;
   text-align: center;
   font-size: 3 rem;
+  margin-bottom: 0;
 }
-h2 {
-  font-family: "Dancing Script", serif;
+.h2 {
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  text-align: center;
+  font-size: 0.75 rem;
 }
-
+p {
+  font-family: "Dancing Script", cursive;
+}
 * {
   background-color: black;
   color: white;
@@ -38,4 +45,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: grey;
+}
+form {
+  padding: 11px;
+  background: grey;
 }
