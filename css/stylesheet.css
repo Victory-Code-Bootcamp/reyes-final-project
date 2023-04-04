@@ -67,4 +67,26 @@ section {
   padding: 3px;
   background-color: gray;
   color: white;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: auto;
+  width: 100vw;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: bottom;
+  text-align: center;
+}
+.pshirt {
+  width: 400px;
+  height: 400px;
+}
+.parag {
+  max-width: 150px;
+  margin: auto;
 }
