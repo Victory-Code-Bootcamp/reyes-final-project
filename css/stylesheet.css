@@ -18,7 +18,6 @@ h1 {
   font-size: 0.75 rem;
 }
 p {
-  font-family: "Dancing Script", cursive;
 }
 * {
   background-color: black;
@@ -71,16 +70,14 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-
   height: auto;
   width: 100vw;
   padding: 10px;
   color: #fff;
-  display: flex;
-  align-items: center;
+  display: column;
+  align-items: column;
   justify-content: center;
-  flex-direction: bottom;
-  text-align: center;
+  flex-direction: center;
 }
 .pshirt {
   width: 400px;
@@ -89,4 +86,5 @@ section {
 .parag {
   max-width: 150px;
   margin: auto;
+  font-family: "Dancing Script", cursive;
 }
