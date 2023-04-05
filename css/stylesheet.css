@@ -17,8 +17,7 @@ h1 {
   text-align: center;
   font-size: 0.75 rem;
 }
-p {
-}
+
 * {
   background-color: black;
   color: white;
@@ -87,4 +86,13 @@ section {
   max-width: 150px;
   margin: auto;
   font-family: "Dancing Script", cursive;
+}
+iframe {
+  position: center;
+  margin: auto;
+  padding: 0px;
+}
+.firfl {
+  font-size: 7rem;
+  font-weight: bold;
 }
